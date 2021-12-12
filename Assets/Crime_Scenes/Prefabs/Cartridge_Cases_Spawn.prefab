@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5500773521419624185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5500773521419624186}
+  - component: {fileID: 5500773521419624187}
+  m_Layer: 0
+  m_Name: Cartridge_Cases_Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5500773521419624186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5500773521419624185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.28, y: 0.384, z: 0.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5500773521419624187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5500773521419624185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc6bd8cfc95d0446a3c8f1b734c889c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objects_Cartridge_Cases: 0
+  Value_1: 0
+  Objects_Cartridge_Cases_Vertical: 0
+  Value_2: 0
+  Objects_Cartridge_Case_Damaged: 0
+  Value_3: 0
+  Objects_Cartridge_Case_Damaged_Vertical: 0
+  Value_4: 0
+  Objects_Cartridge_Case_Damaged_Shotgun: 0
+  Value_5: 0
+  Objects_Cartridge_Case_Damaged_Shotgun_Vertical: 0
+  Value_6: 0
+  Spawn_Range_Radius: 1
+  Spawn_Angle_Range: 360
+  Cartridge_Case_Spawn: 0
+  Cartridge_Case_Vertical_Spawn: 0
+  Cartridge_Case_Damaged_Spawn: 0
+  Cartridge_Case_Damaged_Vertical_Spawn: 0
+  Cartridge_Case_Damaged_Shotgun_Spawn: 0
+  Cartridge_Case_Damaged_Shotgun_Vertical_Spawn: 0
+  Add_Rigidbody: 0
+  Add_Collision: 0
+  Clear_All: 0
